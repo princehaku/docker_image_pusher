@@ -1,7 +1,4 @@
-nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-alist:latest
+shadowsocks/shadowsocks-libev:latest
 #支持指定架构
---platform=linux/arm64 alist
+--platform=linux/arm64,linux/amd64 shadowsocks/shadowsocks-libev
 
