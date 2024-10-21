@@ -1,4 +1,3 @@
-shadowsocks/shadowsocks-libev:latest
 #支持指定架构
 --platform=linux/arm64,linux/amd64 shadowsocks/shadowsocks-libev
 
