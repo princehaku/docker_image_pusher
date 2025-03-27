@@ -13,3 +13,5 @@ nginx:latest
 pingcap/tidb:v8.4.0
 docker.elastic.co/elasticsearch/elasticsearch:8.14.3
 docker.elastic.co/kibana/kibana:8.14.3
+--platform=linux/arm64 rockchin/langbot:latest
+--platform=linux/amd64 rockchin/langbot:latest
